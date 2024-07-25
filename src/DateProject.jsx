@@ -1,9 +1,6 @@
-import AppTask from './assets/Proyectos/AppTask.mp4'
+
 import ECommerce from './assets/Proyectos/E-Commerce.mp4'
-import FanPage from './assets/Proyectos/FanPage.mp4'
-import InstitucionSite from './assets/Proyectos/InstitucionalSite.mp4'
 import AppFinanzas from './assets/Proyectos/GestorFinanzas.mp4'
-import PortfolioDB from './assets/Proyectos/PorfolioDB.mp4'
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
