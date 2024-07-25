@@ -1,0 +1,52 @@
+.Skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    gap: 2rem;
+    flex-wrap: wrap;
+    .SkillsBlock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        border: 1px solid blanchedalmond;
+        width: 21rem;
+        height: 18rem;
+        border-radius: 10px;
+        padding-top: 2rem;
+        box-shadow: 5px 5px 4px rgb(90, 8, 8) ;
+    }
+    .SkillIcons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 3rem;
+    }
+    .SkillIcon {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        transition: transform 0.8s;
+        filter: drop-shadow(2px 2px 1px rgba(190, 190, 190, 0.377));
+      }
+}
+
+.SkillIcon:hover{
+    transform: scale(1.8);
+}
+
+@media only screen and (max-width: 575px){
+    h3{
+        font-size: 15px;
+    }
+    .SkillIcon{
+        width: 1.5rem;
+    }
+    .SkillIcons{
+        display: flex;
+        justify-content: center;
+    }
+}
