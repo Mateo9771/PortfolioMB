@@ -15,7 +15,7 @@ const proyectos = [
     {
         name: 'Login & Register',
         description:'Sistema de login y registro seguro, diseñado para proteger la información de los usuarios. Al registrarse Las contraseñas se hashean automáticamente, garantizando un nivel adicional de seguridad y confidencialidad. Esta arquitectura asegura que los datos sensibles estén protegidos contra accesos no autorizados y vulnerabilidades comunes',
-        github: 'https://github.com/Mateo9771/Gestor-de-finanzas.git',
+        github: 'https://github.com/Mateo9771/Login-register.git',
         skills:[
             <FaHtml5 size='1.5rem' color='orange'/>,
             <FaCss3Alt size='1.5rem' color='blue' />,
@@ -31,7 +31,7 @@ const proyectos = [
     {
         name: 'Contraseñas seguras',
         description:'Aplicación para crear contraseñas seguras. Los usuarios pueden seleccionar entre diferentes tipos de caracteres, incluyendo letras minúsculas, mayúsculas, símbolos y números. La aplicación asegura un alto nivel de seguridad al no permitir la selección de menos de tres opciones, garantizando contraseñas complejas y difíciles de descifrar',
-        github: 'https://github.com/Mateo9771/Gestor-de-finanzas.git',
+        github: 'https://github.com/Mateo9771/PasswordGenerator.git',
         skills:[
             <FaHtml5 size='1.5rem' color='orange'/>,
             <FaCss3Alt size='1.5rem' color='blue' />,
